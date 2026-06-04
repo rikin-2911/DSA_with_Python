@@ -15,6 +15,6 @@ for i in range(len(marks) - 1, -1, -1):
 for mark in marks:
     print(mark)
 
-for i in rage (len(marks)):
+for i in range(len(marks)):
     print(marks[i])
 """
