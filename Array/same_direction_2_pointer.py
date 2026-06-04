@@ -4,8 +4,8 @@ def clean(names):
     
     for right in range(1, len(names)):
         if names[right] != names[left]:
-            left = left + 1
-            names[left] = names[right]
+            left = left + 1  # Left Jumps
+            names[left] = names[right] # Copy names
 
     return left + 1
 
