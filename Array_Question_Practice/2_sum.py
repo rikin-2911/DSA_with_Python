@@ -18,10 +18,10 @@ def brute_force_2_sum(nums, target):
         for j in range(0, len(nums)):
 
             if nums[i] + nums[j] == target:
-                return [i, j], nums[i] , nums[j]
+                return [i, j], nums[i], nums[j]
 
 
-# Optimize method using Hash map or Hashing using Dictionery -> O(n^2) ---> O(n)
+# Optimize method using Hash map or Hashing using Dictionary -> O(n^2) ---> O(n)
 def optimize_two_sum(nums, target):
 
     num_dict = {}
@@ -37,6 +37,6 @@ def optimize_two_sum(nums, target):
     return []
 
 nums = [2, 7, 11, 15, 82, 20]
-target = 26
+target = 102
 print(brute_force_2_sum(nums, target))
 print(optimize_two_sum(nums, target))
